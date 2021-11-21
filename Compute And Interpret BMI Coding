@@ -1,0 +1,43 @@
+package ifStatement;
+import java.util.Scanner;
+
+public class ComputeAndInterpretBMI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		//Prompt the user to enter weight in pounds
+		System.out.println("Enter weight in pounds:");
+		double weight = scan.nextDouble();
+		
+		//Prompt the user to enter height in inches
+		System.out.println("Enter height in inches:");
+		double height = scan.nextDouble();
+		
+		final double KILOGRAMS_PER_POUND  = 0.45359237; // Constant
+		final double METER_PER_INCH = 0.0254; // Constant
+		
+		//Compute BMI
+		double weigtInKilograms = weight * KILOGRAMS_PER_POUND;
+		double heightInMeters = height * METER_PER_INCH;
+		double bmi = (heightInMeters * heightInMeters);
+		
+		// Display result
+		System.out.println("BMI is " + bmi);
+		if (bmi<18.5)
+			System.out.println("Underweight");
+		else if (bmi<25)
+			System.out.println("Normal");
+		else if (bmi < 30)
+			System.out.println("Overweight");
+		else
+			System.out.println("Obese");
+		
+			
+		
+	
+		
+	}
+
+}
