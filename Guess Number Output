@@ -1,0 +1,15 @@
+Guess a magic number between 0 and 100
+
+Enter your guess:100
+Your guess is too high
+
+Enter your guess:50
+Your guess is too low
+
+Enter your guess:40
+Your guess is too low
+
+Enter your guess:39
+Your guess is too low
+
+Enter your guess:
