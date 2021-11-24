@@ -1,0 +1,8 @@
+Enter yes or no: y
+INSIDE LOOPING
+Enter yes or no: no
+INSIDE LOOPING
+Enter yes or no: n
+INSIDE LOOPING
+Enter yes or no: N
+Sentinel value detected. Good Bye. 
