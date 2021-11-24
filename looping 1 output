@@ -1,0 +1,49 @@
+Enter a random number(0-100): 100
+Your number is too high
+
+Enter a random number(0-100): 90
+Your number is too high
+
+Enter a random number(0-100): 80
+Your number is too high
+
+Enter a random number(0-100): 70
+Your number is too high
+
+Enter a random number(0-100): 60
+Your number is too low
+
+Enter a random number(0-100): 50
+Your number is too low
+
+Enter a random number(0-100): 40
+Your number is too low
+
+Enter a random number(0-100): 30
+Your number is too low
+
+Enter a random number(0-100): 20
+Your number is too low
+
+Enter a random number(0-100): 10
+Your number is too low
+
+Enter a random number(0-100): 45
+Your number is too low
+
+Enter a random number(0-100): 41
+Your number is too low
+
+Enter a random number(0-100): 42
+Your number is too low
+
+Enter a random number(0-100): 43
+Your number is too low
+
+Enter a random number(0-100): 44
+Your number is too low
+
+Enter a random number(0-100): 35
+Your number is too low
+
+Enter a random number(0-100): 
