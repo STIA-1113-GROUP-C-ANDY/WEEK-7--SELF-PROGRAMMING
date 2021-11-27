@@ -1,0 +1,37 @@
+package mySelfProgramming2;
+import java.util.Scanner;
+
+public class ChooseMusic2 {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int number = (int)(Math.random() * 5);
+		int guess = -1;
+		while (guess !=number) {
+
+		String name ;
+		
+		System.out.println("Enter your name:" );
+		name = scan.nextLine();
+		System.out.println("Welcome to Spotify," + name);
+		
+		System.out.println("You need to guess number between 0 and 4 number to know your music.");
+		System.out.print("\nEnter your guess number: ");
+		guess = scan.nextInt();
+		
+		System.out.println();
+		
+		if (guess == number)
+			System.out.println("You have choose 'Easy On Me' by Adele.");
+		else if (guess != number)
+			System.out.println("You have choose 'Hello' by Beyonce.");
+		else
+			System.out.println("You have choose 'Peluang Kedua' by Nabila Razali");
+			System.out.println("ENJOY YOUR MUSIC.");
+		}
+	}
+
+}
