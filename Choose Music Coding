@@ -1,0 +1,88 @@
+package mySelfProgramming2;
+import java.util.Scanner;
+
+public class ChooseMusic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		int music = 1;
+		int music2 = 2;
+		int music3 = 3;
+		
+		String name ;
+		
+		System.out.println("Enter your name:" );
+		name = scan.nextLine();
+		System.out.println("Welcome to Spotify," + name);
+		
+		
+		System.out.println("Please Enter Your Music Number:" );
+		int a= scan.nextInt();
+		
+		
+		if(a == music) {
+			System.out.println("You have choose 'Easy On Me' by Adele.");
+	
+		}else
+			System.out.println("Your Music Number has not Listed!");
+			
+		System.out.println();
+		
+
+		System.out.println("Please Enter Your Second Music Number:" );
+		int b= scan.nextInt();
+		
+		
+		if(b == music2) {
+			System.out.println("You have choose 'Hello' by Beyonce.");
+	
+		}else
+			System.out.println("Your Music Number has not Listed!");
+
+
+		System.out.println();
+		
+
+		System.out.println("Please Enter Your Third Music Number:" );
+		int c= scan.nextInt();
+		
+		
+		if(c == music3) {
+			System.out.println("You have choose 'Semalam' by Aina Abdul.");
+	
+		}else
+			System.out.println("Your Music Number has not Listed!");
+		
+			System.out.println("ENJOY YOUR MUSIC!.");
+		
+		
+		
+		
+		
+	}
+}
+
+		
+		
+		
+			
+	
+		
+		
+		
+				
+			
+			
+			
+		
+			
+			
+		
+			
+		
+		
+		
+	
+
+
